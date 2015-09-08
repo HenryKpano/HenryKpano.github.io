@@ -13,6 +13,7 @@ h1{
 }
 h1 strong{
 	font-weight: 900;
+	line-height: 20px;
 }
 h2{
 	text-transform: uppercase;

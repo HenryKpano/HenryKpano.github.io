@@ -211,6 +211,7 @@ $( document ).ready(function() {
             $("#mail").text($("#inputEmail").val());
             $("#pwd").text($("#inputPassword").val());
             $("#img").attr('src', $('#profile-img').attr('src'));
+            $("#img").css({"width":"20px"});
             $('#todoList').load('todo.html');
 
             return false;
